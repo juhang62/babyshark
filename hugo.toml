@@ -46,15 +46,15 @@ pagerSize = 6
     LanguageCode  = "en"
     LanguageName = "English"
     weight = 1
-    title = "Lightbi"
+    title = "Baby Shark Blog"
     contentDir = "content/en"
 
   [languages.ml]
-    LanguageCode  = "ml"
-    LanguageName = "Malayalam"
+    LanguageCode  = "cn"
+    LanguageName = "Chinese"
     weight = 2
-    title = "Malayalam Site"
-    contentDir = "content/ml"
+    title = "Baby Shark Blog"
+    contentDir = "content/cn"
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
