@@ -57,8 +57,8 @@ pagerSize = 6
     contentDir = "content/cn"
 
 [Params.Author]
-  name = "Bino Kochumol Varghese"
-  website = "https://www.binovarghese.com/"
+  name = "33"
+  website = ""
   authorInfo = "Give everything for your dreams."
   authorPostImage = "/img/author-post-img.jpg"
   facebook = "username"
