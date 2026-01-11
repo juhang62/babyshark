@@ -2,7 +2,7 @@
 title: 当妈的感觉真好
 date: 2025-11-14
 tags: [""]
-image : "/img/aqiu-in-babycar-fall-leaves.jpg"
+image : ""
 Description  : ""
 ---
 一个小生命，让我感受到与生俱来的信任、需求和连结。
