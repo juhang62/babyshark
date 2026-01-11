@@ -1,8 +1,8 @@
 ---
 title: 当妈的感觉真好
-date: 2025-11-03
+date: 2025-11-14
 tags: [""]
-image : ""
+image : "/img/aqiu-in-babycar-fall-leaves.jpg"
 Description  : ""
 ---
 一个小生命，让我感受到与生俱来的信任、需求和连结。
@@ -21,3 +21,4 @@ Description  : ""
 
 所以，宝宝，再看起这张照片，你还能闻到那天清凉的空气里弥漫的桂花香吗？
 
+![chasing birds](/img/aqiu-in-babycar-fall-leaves.jpg)
