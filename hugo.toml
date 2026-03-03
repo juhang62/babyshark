@@ -6,6 +6,7 @@ title = "Lightbi"
 theme = "lightbi-hugo"
 summaryLength  = "30"
 metaDataFormat = "yaml"
+hasCJKLanguage = true
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -20,7 +21,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [Params]
 selfHosted = true
 mainSections = ["post","posts"]
-dateFormat = "02 January 2006"
+#dateFormat = "02 January 2006"
 comments = false
 readingTime = true
 wordCount = true
@@ -48,35 +49,37 @@ pagerSize = 6
     weight = 1
     title = "Baby Shark Blog"
     contentDir = "content/en"
+    [languages.en.params]
+      dateFormat = "02 January 2006"
 
-  [languages.ml]
-    LanguageCode  = "cn"
-    LanguageName = "Chinese"
+  [languages.zh-cn]
+    LanguageCode  = "zh-CN"
+    LanguageName = "中文"
     weight = 2
     title = "Baby Shark Blog"
-    contentDir = "content/cn"
+    contentDir = "content/zh-cn"
 
 [Params.Author]
   name = "33"
   website = ""
   authorInfo = "Give everything for your dreams."
   authorPostImage = "/img/author-post-img.jpg"
-  facebook = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  twitter = "username"
-  linkedin = "username"
-  github = "username"
-  threads = "username"
-  gitlab = "username"
-  reddit = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  spotify = "username"
-  paypal = "username"
-  telegram = "username"
-  mastodon = "url"
-  slack = "username"
+  #facebook = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #twitter = "username"
+  #linkedin = "username"
+  #github = "username"
+  #threads = "username"
+  #gitlab = "username"
+  #reddit = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #spotify = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #mastodon = "url"
+  #slack = "username"
   #bandcamp = "username"
   #itchio = "username"
   #vk = "username"
@@ -86,7 +89,7 @@ pagerSize = 6
   #xing = "username"
   #bitbucket = "username"
   #soundcloud = "username"
-  # codepen = "username"
+  #codepen = "username"
 
 [sitemap]
   changefreq = "monthly"
@@ -99,26 +102,49 @@ pagerSize = 6
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
+#[[menu.main]]
+#    name = "Notes"
+#    url = "/notes/"
+#    weight = 2
 
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
     weight = 3
 
-
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
-    weight = 4
+#[[menu.main]]
+#    name = "Collections"
+#    url = "/collections/"
+#    weight = 4
 
 [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 5
 
+[[languages.zh-cn.menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+#[[languages.zh-cn.menu.main]]
+#    name = "随笔"
+#    url = "/notes/"
+#    weight = 2
+
+[[languages.zh-cn.menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+#[[languages.zh-cn.menu.main]]
+#    name = "合集"
+#    url = "/collections/"
+#    weight = 4
+
+[[languages.zh-cn.menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 5
 
 

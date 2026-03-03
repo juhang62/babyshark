@@ -1,0 +1,4 @@
+- id: dateFormat
+  translation: "2006年1月2日"
+- id: shortdateFormat
+  translation: "2006年1月2日 15:04:05"

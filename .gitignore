@@ -1,0 +1,4 @@
+public/
+resources/
+.playwright-mcp/
+.hugo_build.lock
